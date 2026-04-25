@@ -8,7 +8,7 @@
 # ============================================================
 
 # Replace this with your actual GitHub repo URL
-REPO_URL="https://github.com/YOUR_USERNAME/internet-terminology.git"
+REPO_URL="https://github.com/alv-oh/internet-terminology.git"
 
 # ----- Init Git -----
 git init
