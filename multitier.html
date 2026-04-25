@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multitier Architecture</title>
+</head>
+<body>
+
+  <h1>Multitier Architecture</h1>
+
+  <nav>
+    <b>Navigate to:</b>
+    <a href="index.html">Home</a> |
+    <a href="www.html">WWW</a> |
+    <a href="tcp-ip.html">TCP/IP</a> |
+    <a href="web-browsers.html">Web Browsers</a> |
+    <a href="web-servers.html">Web Servers</a> |
+    <a href="url.html">URL</a> |
+    <a href="dns.html">DNS</a> |
+    <a href="http.html">HTTP</a> |
+    <a href="intranet.html">Intranet</a> |
+    <a href="extranet.html">Extranet</a> |
+    <a href="ftp.html">FTP</a> |
+    <a href="html.html">HTML</a> |
+    <a href="web-versions.html">Web 1.0 - 4.0</a>
+  </nav>
+
+  <hr>
+
+  <h2>Definition</h2>
+  <p>
+    <b>Multitier Architecture</b> (also called <b>n-tier architecture</b>) is a design model for web applications in which different functions of the application are separated into distinct layers or "tiers." Each tier handles a specific responsibility and communicates with the layers above and below it.
+  </p>
+
+  <h2>The Most Common Model: 3-Tier Architecture</h2>
+  <p>The three-tier model is the most widely used:</p>
+
+  <h3>Tier 1 &mdash; Presentation Layer (Client)</h3>
+  <p>
+    This is the user-facing layer — what the user sees and interacts with. It is typically the web browser displaying HTML, CSS, and JavaScript. Its job is to present information to the user and collect their input.
+  </p>
+
+  <h3>Tier 2 &mdash; Application Layer (Business Logic)</h3>
+  <p>
+    This is the middle layer, often called the <b>logic layer</b> or <b>server layer</b>. It processes user requests, applies business rules, and communicates between the presentation and data layers. This is where the core functionality of the application lives (e.g., calculating, validating, processing).
+  </p>
+
+  <h3>Tier 3 &mdash; Data Layer (Database)</h3>
+  <p>
+    This is where data is stored and managed. It contains the <b>database</b> (e.g., MySQL, PostgreSQL, Oracle). The application layer queries this layer to retrieve or store information.
+  </p>
+
+  <h2>Why Use Multitier Architecture?</h2>
+  <ul>
+    <li><b>Separation of concerns:</b> Each layer focuses on one job, making the system easier to manage.</li>
+    <li><b>Scalability:</b> Each layer can be scaled independently as needed.</li>
+    <li><b>Security:</b> The database is not directly accessible from the web browser — it is protected behind the application layer.</li>
+    <li><b>Maintainability:</b> Changes to one tier do not necessarily affect others.</li>
+  </ul>
+
+  <h2>Real-World Example</h2>
+  <p>
+    When you log into a banking website: the browser (Tier 1) sends your credentials → the application server (Tier 2) verifies your identity and applies rules → the database (Tier 3) retrieves your account details → the information travels back and is displayed in your browser.
+  </p>
+
+  <h2>Illustration</h2>
+  <img src="images/multitier.png" alt="Diagram of three-tier architecture showing the presentation, application, and data layers" width="500">
+  <p><em>Figure: Three-tier architecture separating the presentation, application logic, and data storage layers.</em></p>
+
+  <hr>
+  <p><a href="index.html">Back to Home</a></p>
+
+</body>
+</html>
