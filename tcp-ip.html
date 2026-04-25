@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TCP/IP</title>
+</head>
+<body>
+
+  <h1>Transmission Control Protocol / Internet Protocol (TCP/IP)</h1>
+
+  <nav>
+    <b>Navigate to:</b>
+    <a href="index.html">Home</a> |
+    <a href="www.html">WWW</a> |
+    <a href="web-browsers.html">Web Browsers</a> |
+    <a href="web-servers.html">Web Servers</a> |
+    <a href="url.html">URL</a> |
+    <a href="dns.html">DNS</a> |
+    <a href="http.html">HTTP</a> |
+    <a href="intranet.html">Intranet</a> |
+    <a href="extranet.html">Extranet</a> |
+    <a href="multitier.html">Multitier Architecture</a> |
+    <a href="ftp.html">FTP</a> |
+    <a href="html.html">HTML</a> |
+    <a href="web-versions.html">Web 1.0 - 4.0</a>
+  </nav>
+
+  <hr>
+
+  <h2>Definition</h2>
+  <p>
+    <b>TCP/IP</b> stands for <b>Transmission Control Protocol / Internet Protocol</b>. It is the fundamental set of communication rules (protocols) that govern how data is transmitted over the Internet. It defines how computers identify themselves on a network and how data is broken into packets, sent, and reassembled at the destination.
+  </p>
+
+  <h2>The Two Parts Explained</h2>
+
+  <h3>1. Internet Protocol (IP)</h3>
+  <p>
+    IP is responsible for <b>addressing and routing</b>. Every device connected to the Internet is assigned a unique <b>IP address</b> (e.g., 192.168.1.1). IP ensures that data packets are sent to the correct destination by reading these addresses, similar to how a postal system uses home addresses to deliver letters.
+  </p>
+
+  <h3>2. Transmission Control Protocol (TCP)</h3>
+  <p>
+    TCP is responsible for <b>reliable delivery</b>. It breaks data into smaller units called <b>packets</b>, sends them across the network, and then reassembles them in the correct order at the destination. If any packets are lost during transmission, TCP requests that they be resent.
+  </p>
+
+  <h2>How TCP/IP Works (Step by Step)</h2>
+  <ol>
+    <li>Data is broken into packets by TCP.</li>
+    <li>Each packet is labelled with source and destination IP addresses by IP.</li>
+    <li>Packets travel across the network, possibly taking different routes.</li>
+    <li>At the destination, TCP reassembles the packets in the correct order.</li>
+    <li>If packets are missing or corrupted, TCP requests retransmission.</li>
+  </ol>
+
+  <h2>Why TCP/IP Is Important</h2>
+  <p>
+    TCP/IP is the backbone of the Internet. Without it, devices would have no standardised way to communicate. It makes it possible for computers, phones, and servers from different manufacturers and operating systems to exchange data seamlessly.
+  </p>
+
+  <h2>Illustration</h2>
+  <img src="images/tcp-ip.png" alt="Diagram showing how data is broken into packets and transmitted using TCP/IP" width="500">
+  <p><em>Figure: Data is broken into packets, routed via IP, and reassembled by TCP.</em></p>
+
+  <hr>
+  <p><a href="index.html">Back to Home</a></p>
+
+</body>
+</html>
