@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTTP - Hypertext Transfer Protocol</title>
+</head>
+<body>
+
+  <h1>Hypertext Transfer Protocol (HTTP)</h1>
+
+  <nav>
+    <b>Navigate to:</b>
+    <a href="index.html">Home</a> |
+    <a href="www.html">WWW</a> |
+    <a href="tcp-ip.html">TCP/IP</a> |
+    <a href="web-browsers.html">Web Browsers</a> |
+    <a href="web-servers.html">Web Servers</a> |
+    <a href="url.html">URL</a> |
+    <a href="dns.html">DNS</a> |
+    <a href="intranet.html">Intranet</a> |
+    <a href="extranet.html">Extranet</a> |
+    <a href="multitier.html">Multitier Architecture</a> |
+    <a href="ftp.html">FTP</a> |
+    <a href="html.html">HTML</a> |
+    <a href="web-versions.html">Web 1.0 - 4.0</a>
+  </nav>
+
+  <hr>
+
+  <h2>Definition</h2>
+  <p>
+    <b>Hypertext Transfer Protocol (HTTP)</b> is the set of rules that governs how data is transferred between a web browser (client) and a web server on the World Wide Web. It defines how messages are formatted and transmitted, and what actions browsers and servers should take in response to various commands.
+  </p>
+
+  <h2>HTTP vs HTTPS</h2>
+  <p>
+    <b>HTTPS</b> (Hypertext Transfer Protocol <i>Secure</i>) is the encrypted version of HTTP. It uses <b>SSL/TLS</b> encryption to protect data in transit between the browser and server. HTTPS is now the standard for all modern websites, especially those handling sensitive information such as passwords and payment details. You can identify HTTPS sites by the padlock icon in the browser address bar.
+  </p>
+
+  <h2>HTTP Request Methods</h2>
+  <p>HTTP defines several methods for interacting with resources on a server:</p>
+  <ul>
+    <li><b>GET:</b> Retrieves data from the server (e.g., loading a web page).</li>
+    <li><b>POST:</b> Sends data to the server (e.g., submitting a form).</li>
+    <li><b>PUT:</b> Updates existing data on the server.</li>
+    <li><b>DELETE:</b> Removes data from the server.</li>
+  </ul>
+
+  <h2>HTTP Status Codes</h2>
+  <p>When a server responds to a request, it includes a status code:</p>
+  <ul>
+    <li><b>200 OK</b> &mdash; The request was successful.</li>
+    <li><b>301 Moved Permanently</b> &mdash; The resource has been moved to a new URL.</li>
+    <li><b>404 Not Found</b> &mdash; The requested page does not exist.</li>
+    <li><b>500 Internal Server Error</b> &mdash; The server encountered an error.</li>
+  </ul>
+
+  <h2>How HTTP Works</h2>
+  <ol>
+    <li>The browser sends an <b>HTTP Request</b> to the server, specifying what resource it wants.</li>
+    <li>The server processes the request and sends back an <b>HTTP Response</b> containing the requested resource and a status code.</li>
+    <li>The browser renders the received content for the user.</li>
+  </ol>
+
+  <h2>Illustration</h2>
+  <img src="images/http.png" alt="Diagram showing an HTTP request being sent from a browser to a server and an HTTP response being returned" width="500">
+  <p><em>Figure: The HTTP request-response cycle between a browser and a web server.</em></p>
+
+  <hr>
+  <p><a href="index.html">Back to Home</a></p>
+
+</body>
+</html>
