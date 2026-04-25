@@ -8,8 +8,7 @@
 # ============================================================
 
 # Replace this with your actual GitHub repo URL
-REPO_URL="https://github.com/alv-oh/internet-terminology.git"
-
+REPO_URL="https://github.com/alv-oh/internet_terminology.git"
 # ----- Init Git -----
 git init
 git remote add origin $REPO_URL
