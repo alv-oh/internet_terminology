@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DNS - Domain Name Server</title>
+</head>
+<body>
+
+  <h1>Domain Name Server (DNS)</h1>
+
+  <nav>
+    <b>Navigate to:</b>
+    <a href="index.html">Home</a> |
+    <a href="www.html">WWW</a> |
+    <a href="tcp-ip.html">TCP/IP</a> |
+    <a href="web-browsers.html">Web Browsers</a> |
+    <a href="web-servers.html">Web Servers</a> |
+    <a href="url.html">URL</a> |
+    <a href="http.html">HTTP</a> |
+    <a href="intranet.html">Intranet</a> |
+    <a href="extranet.html">Extranet</a> |
+    <a href="multitier.html">Multitier Architecture</a> |
+    <a href="ftp.html">FTP</a> |
+    <a href="html.html">HTML</a> |
+    <a href="web-versions.html">Web 1.0 - 4.0</a>
+  </nav>
+
+  <hr>
+
+  <h2>Definition</h2>
+  <p>
+    The <b>Domain Name System (DNS)</b> is a naming system that translates human-readable domain names (like <b>www.google.com</b>) into numeric <b>IP addresses</b> (like <b>142.250.184.78</b>) that computers use to identify each other on a network. It acts like the Internet's phone book.
+  </p>
+
+  <h2>Why DNS Is Needed</h2>
+  <p>
+    Computers and networks communicate using IP addresses, which are numerical. However, humans find it easier to remember names than numbers. DNS bridges this gap by allowing users to type a memorable domain name while the system automatically handles finding the correct IP address.
+  </p>
+
+  <h2>How DNS Works (Step by Step)</h2>
+  <ol>
+    <li>You type <b>www.example.com</b> into your browser.</li>
+    <li>Your browser checks its local cache to see if it already knows the IP address.</li>
+    <li>If not, it sends a query to a <b>DNS Resolver</b> (usually provided by your ISP).</li>
+    <li>The resolver queries a <b>Root Name Server</b>, which directs it to the correct <b>Top-Level Domain (TLD) server</b> (e.g., .com, .org, .ke).</li>
+    <li>The TLD server directs the resolver to the <b>Authoritative Name Server</b> for that domain.</li>
+    <li>The authoritative server returns the IP address for <b>www.example.com</b>.</li>
+    <li>Your browser uses the IP address to connect to the web server and load the page.</li>
+  </ol>
+
+  <h2>Key DNS Terms</h2>
+  <ul>
+    <li><b>Domain Name:</b> A human-readable name like <code>strathmore.edu</code>.</li>
+    <li><b>IP Address:</b> The numeric address the DNS resolves a domain to.</li>
+    <li><b>DNS Record:</b> An entry in a DNS database (e.g., A record, MX record, CNAME).</li>
+    <li><b>TTL (Time to Live):</b> How long a DNS response is cached before being refreshed.</li>
+  </ul>
+
+  <h2>Illustration</h2>
+  <img src="images/dns.png" alt="Diagram showing how DNS translates a domain name into an IP address step by step" width="500">
+  <p><em>Figure: DNS translates domain names into IP addresses so browsers can locate servers.</em></p>
+
+  <hr>
+  <p><a href="index.html">Back to Home</a></p>
+
+</body>
+</html>
