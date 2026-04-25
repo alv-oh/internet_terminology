@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FTP - File Transfer Protocol</title>
+</head>
+<body>
+
+  <h1>File Transfer Protocol (FTP)</h1>
+
+  <nav>
+    <b>Navigate to:</b>
+    <a href="index.html">Home</a> |
+    <a href="www.html">WWW</a> |
+    <a href="tcp-ip.html">TCP/IP</a> |
+    <a href="web-browsers.html">Web Browsers</a> |
+    <a href="web-servers.html">Web Servers</a> |
+    <a href="url.html">URL</a> |
+    <a href="dns.html">DNS</a> |
+    <a href="http.html">HTTP</a> |
+    <a href="intranet.html">Intranet</a> |
+    <a href="extranet.html">Extranet</a> |
+    <a href="multitier.html">Multitier Architecture</a> |
+    <a href="html.html">HTML</a> |
+    <a href="web-versions.html">Web 1.0 - 4.0</a>
+  </nav>
+
+  <hr>
+
+  <h2>Definition</h2>
+  <p>
+    <b>File Transfer Protocol (FTP)</b> is a standard network protocol used to transfer files between a client and a server over a TCP/IP network such as the Internet. It allows users to upload files to a server or download files from a server.
+  </p>
+
+  <h2>How FTP Works</h2>
+  <p>
+    FTP operates on a <b>client-server model</b> and uses two separate channels:
+  </p>
+  <ul>
+    <li><b>Command Channel (Port 21):</b> Used to send commands and receive responses between the client and server.</li>
+    <li><b>Data Channel (Port 20):</b> Used to actually transfer the files.</li>
+  </ul>
+  <p>Steps in an FTP session:</p>
+  <ol>
+    <li>The FTP client connects to the FTP server using port 21.</li>
+    <li>The user authenticates using a <b>username and password</b> (or anonymously).</li>
+    <li>The user can then browse the server's directory, upload files, or download files.</li>
+    <li>The session ends when the user disconnects.</li>
+  </ol>
+
+  <h2>FTP vs SFTP vs FTPS</h2>
+  <ul>
+    <li><b>FTP:</b> Standard protocol — data is sent in plain text (not encrypted). Not secure for sensitive transfers.</li>
+    <li><b>SFTP (SSH File Transfer Protocol):</b> A secure version of FTP that encrypts both commands and data using SSH.</li>
+    <li><b>FTPS (FTP Secure):</b> FTP with added SSL/TLS encryption support.</li>
+  </ul>
+
+  <h2>Common Uses of FTP</h2>
+  <ul>
+    <li>Uploading website files to a web server when publishing a site.</li>
+    <li>Downloading large files from an organisation's server.</li>
+    <li>Transferring files between computers on the same network.</li>
+    <li>Backing up files to a remote server.</li>
+  </ul>
+
+  <h2>Popular FTP Clients</h2>
+  <ul>
+    <li><b>FileZilla</b> &mdash; A free, open-source FTP client widely used for web development.</li>
+    <li><b>WinSCP</b> &mdash; Popular on Windows, supports FTP and SFTP.</li>
+    <li><b>Cyberduck</b> &mdash; Available on macOS and Windows.</li>
+  </ul>
+
+  <h2>Illustration</h2>
+  <img src="images/ftp.png" alt="Diagram showing FTP client uploading and downloading files from a remote FTP server using port 20 and 21" width="500">
+  <p><em>Figure: FTP uses two channels to transfer files between a client and a remote server.</em></p>
+
+  <hr>
+  <p><a href="index.html">Back to Home</a></p>
+
+</body>
+</html>
