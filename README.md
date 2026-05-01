@@ -44,9 +44,3 @@ internet-terminology/
 ## How to Run
 
 Open `index.html` in any web browser.
-
-## Assignment Details
-
-- **Course:** Business Information Technology
-- **Topic:** Internet Terminology (Topic 1)
-- **Due:** Saturday, 2 May 2026
