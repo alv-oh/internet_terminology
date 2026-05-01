@@ -22,7 +22,8 @@ A multi-page HTML website covering key Internet terminology terms from Topic 1.
 
 ```
 internet-terminology/
-│
+|css/
+├────style.css          - Styling sheet for the webpages go here
 ├── index.html          - Home page with links to all terms
 ├── www.html            - World Wide Web
 ├── tcp-ip.html         - TCP/IP
